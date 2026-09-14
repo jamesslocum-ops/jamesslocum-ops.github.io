@@ -1,10 +1,28 @@
 * {
   box-sizing: border-box;
 }
+main {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(420px, 1.6fr);
+  align-items: center;
+  min-height: calc(100vh - 160px);
+  gap: clamp(32px, 5vw, 80px);
+}
+
+.sidebar {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
 
 body {
   margin: 0;
-  background: #947706;
+  background: #094768;
   color: #222;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
