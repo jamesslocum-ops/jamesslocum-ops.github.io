@@ -31,10 +31,10 @@ $(function () {
     
 
     // TODO 2 - Create Platforms
-    createPlatform( 1000, 610, 50, 50, "blue");
-    createPlatform(1100, 510, 50, 50, "blue");
-    createPlatform(1200, 410, 50, 50, "blue");
-    createPlatform(1300, 310, 50, 50, "blue");
+    createPlatform( 400, 275, 50, 50, "blue");
+    createPlatform(550, 350, 50, 50, "blue");
+    createPlatform(520, 250, 50, 50, "blue");
+    createPlatform(650, 310, 50, 50, "blue");
     createPlatform(900, 710, 50, 50, "blue");
     // TODO 3 - Create Collectables
     createCollectable("diamond", 1300,250);
